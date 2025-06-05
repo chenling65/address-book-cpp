@@ -42,15 +42,34 @@ A simple command-line Address Book application written in C++. This program allo
 - `filename.txt` — Data file for storing contacts (created automatically)
 
 ## Example
+
+```text
 ----- Address Book -----
-Add Contacts
-Display All Contacts
-Update Contact Information
-Sort Contacts
-Search Contact
-Delete Contact
-Exit
-CHOOSE AN OPTION:
+1. Add Contacts
+2. Display All Contacts
+3. Update Contact Information
+4. Sort Contacts
+5. Search Contact
+6. Delete Contact
+7. Exit
+CHOOSE AN OPTION: 1
+Enter First Name: John
+Enter Last Name: Doe
+Enter Contact Number: 1234567890
+Contact added: John Doe 1234567890
+
+----- Address Book -----
+1. Add Contacts
+2. Display All Contacts
+3. Update Contact Information
+4. Sort Contacts
+5. Search Contact
+6. Delete Contact
+7. Exit
+CHOOSE AN OPTION: 2
+Entry  FirstName  LastName  ContactNumber
+    1       John      Doe      1234567890
+```
 
 ## Requirements
 
